@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- Primer botón, se mostrará en la barra de acción -->
+    <item
+        android:id="@+id/action_home"
+        android:icon="@drawable/ic_clip_2"
+        android:orderInCategory="70"
+        android:title="Estado"
+        app:showAsAction="ifRoom" />
+
+    <!-- Segundo botón, se mostrará en la barra de acción -->
+    <item
+        android:id="@+id/action_profile"
+        android:icon="@drawable/ic_calendar_2"
+        android:orderInCategory="200"
+        android:title="Calendario"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_menu"
+        android:icon="@drawable/ic_menu"
+        android:orderInCategory="200"
+        android:title="Calendario"
+        app:showAsAction="ifRoom" />
+</menu>
